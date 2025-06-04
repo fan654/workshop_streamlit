@@ -5,7 +5,7 @@ import streamlit as st
 st.set_page_config(layout="wide")
 st.title("Interact with Gapminder Data")
 
-df = pd.read_csv("Data/gapminder_tidy.csv")
+df = pd.read_csv("gapminder_tidy.csv")
 
 continent_list = list(df["continent"].unique())
 metric_list = list(df["metric"].unique())
