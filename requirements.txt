@@ -2,3 +2,4 @@ streamlit==1.1.0
 plotly==5.1.0
 numpy==1.23.5
 protobuf==3.20.3
+altair>=4.0,<5.0
